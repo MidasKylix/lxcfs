@@ -156,4 +156,4 @@ As a result, LXCFS had to make some compromise which go as follow:
    However if there is SWAP usage, then a SWAP device of the size of the
    usage (100% full) is reported. This provides adequate reporting of
    the memory consumption while preventing applications from assuming more
-   SWAP is available.
+   SWAP is available. 
