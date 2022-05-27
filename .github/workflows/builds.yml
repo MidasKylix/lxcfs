@@ -8,6 +8,7 @@ jobs:
   coverity:
     name: Coverity
     runs-on: ubuntu-20.04
+    environment: COVERITY_SCAN_TOKEN
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
